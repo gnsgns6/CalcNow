@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity()
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    val a = Calc("GNS");
+                    val a = Calc("GNSGNS");
                     CalcView(a.calcName("GNEISS"))
                 }
 
