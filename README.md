@@ -4,7 +4,7 @@ CalcNow is a simple calculator app that allows you to perform basic arithmetic o
 
 ## Installation
 
-To install CalcNow, simply download the latest release from the [Microsoft Store](https://www.microsoft.com/store/apps/9WZDNCRFHVN5).
+To install CalcNow, simply download the latest release from the [Github] : (https://github.com/gnsgns6/CalcNow/).
 
 ## Usage
 
