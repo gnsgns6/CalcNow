@@ -107,6 +107,60 @@ fun KeyView(){
                 .padding(12.dp), shape = RoundedCornerShape(10.dp))
             { Text(text = "9", fontSize= 30.sp) }
         }
+        Row (
+            horizontalArrangement = Arrangement.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+        ) {
+            Button(onClick = { /*TODO*/ } ,modifier=Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "7" , fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "8", fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "9", fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "9", fontSize= 30.sp) }
+        }
+        Row (
+            horizontalArrangement = Arrangement.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+        ){
+            Button(onClick = { /*TODO*/ } ,modifier=Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "7" , fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "8", fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "9", fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "9", fontSize= 30.sp) }
+        }
+        Row (
+            horizontalArrangement = Arrangement.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+        ){
+            Button(onClick = { /*TODO*/ } ,modifier=Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "7" , fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "8", fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "9", fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "9", fontSize= 30.sp) }
+        }
     }
 }
 //@Preview(showSystemUi = true, showBackground = true)
