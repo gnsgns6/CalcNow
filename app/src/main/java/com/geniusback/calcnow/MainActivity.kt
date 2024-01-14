@@ -6,6 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -30,7 +31,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.geniusback.calcnow.ui.theme.CalcNowTheme
 
 class MainActivity : ComponentActivity()
@@ -86,13 +89,23 @@ fun KeyView(){
             .size(height = 520.dp, width = 220.dp),
         elevation= CardDefaults.cardElevation(defaultElevation = 12.dp))
     {
-        Row {
+        Row (
+            horizontalArrangement = Arrangement.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+        ){
             Button(onClick = { /*TODO*/ } ,modifier=Modifier
                     .padding(12.dp), shape = RoundedCornerShape(10.dp))
-            {
-                Text(text = "7")
-            }
-
+            { Text(text = "7" , fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "8", fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "9", fontSize= 30.sp) }
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
+                .padding(12.dp), shape = RoundedCornerShape(10.dp))
+            { Text(text = "9", fontSize= 30.sp) }
         }
     }
 }
