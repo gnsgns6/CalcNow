@@ -45,16 +45,6 @@ import androidx.compose.ui.unit.sp
 import com.geniusback.calcnow.ui.theme.*
 import com.geniusback.calcnow.ui.theme.CalcNowTheme
 
-@Composable
-fun ScreenView() {
-    Card(
-        modifier = Modifier
-            .padding(12.dp)
-            .size(height = 180.dp, width = 220.dp),
-        elevation = CardDefaults.cardElevation(defaultElevation = 12.dp)
-    )
-    { Text(text = "ScreenView") }
-}
 
 @Composable
 fun KeyView() {

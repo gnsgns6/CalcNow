@@ -56,7 +56,7 @@ class MainActivity : ComponentActivity() {
                         .fillMaxWidth()
                         .horizontalScroll(state = rememberScrollState())
                 ) {
-                    ScreenView()
+                    ScreenView("5")
                     KeyView()
                     val a = Calc("LEGACY")
 //                    CalcView(a.calcName("GNEISS"))
