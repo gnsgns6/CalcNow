@@ -33,7 +33,10 @@ fun ScreenView() {
     )
     { Text(text = "ScreenView") }
 }
+@Composable
+fun KeyBindings(){
 
+}
 @Composable
 fun KeyView() {
     Card(
@@ -62,6 +65,48 @@ fun KeyView() {
                 {
                     Text(
                         text = "AC", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                        softWrap = false
+                    )
+                }
+                Button(
+                    onClick = { /*TODO*/ },
+                    contentPadding = PaddingValues(0.dp),
+                    modifier = Modifier
+                        .padding(10.dp)
+                        .size(70.dp)
+                        .clip(CircleShape)
+                )
+                {
+                    Text(
+                        text = "<<", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                        softWrap = false
+                    )
+                }
+                Button(
+                    onClick = { /*TODO*/ },
+                    contentPadding = PaddingValues(0.dp),
+                    modifier = Modifier
+                        .padding(10.dp)
+                        .size(70.dp)
+                        .clip(CircleShape)
+                )
+                {
+                    Text(
+                        text = "%", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                        softWrap = false
+                    )
+                }
+                Button(
+                    onClick = { /*TODO*/ },
+                    contentPadding = PaddingValues(0.dp),
+                    modifier = Modifier
+                        .padding(10.dp)
+                        .size(70.dp)
+                        .clip(CircleShape)
+                )
+                {
+                    Text(
+                        text = "/", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                         softWrap = false
                     )
                 }
