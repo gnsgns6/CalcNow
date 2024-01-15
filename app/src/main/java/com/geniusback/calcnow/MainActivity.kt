@@ -76,24 +76,3 @@ fun CalcView(name2: String) {
     )
 }
 
-
-
-//@Preview(showSystemUi = true, showBackground = true)
-//@Composable
-//fun GreetingPreview() {
-//    CalcNowTheme {
-//        CalcView("Android")
-//    }
-//}
-//@Composable
-//fun ScreenViewPreview() {
-//    CalcNowTheme {
-//        ScreenView()
-//    }
-//}
-//@Composable
-//fun KeyViewPreview(){
-//    CalcNowTheme {
-//        KeyView()
-//    }
-//}
