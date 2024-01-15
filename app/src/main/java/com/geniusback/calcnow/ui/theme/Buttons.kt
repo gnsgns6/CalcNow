@@ -143,7 +143,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "AC", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "7", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -157,7 +157,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "<<", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "8", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -171,7 +171,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "%", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "9", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -185,7 +185,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "/", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "x", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -205,7 +205,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "AC", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "4", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -219,7 +219,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "<<", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "5", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -233,7 +233,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "%", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "6", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -247,7 +247,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "/", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "-", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -267,7 +267,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "AC", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "1", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -281,7 +281,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "<<", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "2", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -295,7 +295,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "%", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "3", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -309,7 +309,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "/", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "-", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -329,7 +329,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "AC", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "$", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -343,7 +343,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "<<", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "0", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -357,7 +357,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "%", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = ".", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
@@ -371,7 +371,7 @@ fun KeyView() {
             )
             {
                 Text(
-                    text = "/", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+                    text = "=", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
                     softWrap = false
                 )
             }
