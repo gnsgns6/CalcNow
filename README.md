@@ -1,6 +1,7 @@
 # CalcNow
 
 CalcNow is a simple calculator app that allows you to perform basic arithmetic operations.
+We're trying learn creating this for learning it using Jetpack Compose & Kotlin.
 
 ## Installation
 
@@ -17,10 +18,14 @@ To install CalcNow, simply download the latest release from the [Github] : (http
 
 - Basic arithmetic operations
 - Unit and currency converters
+- Modern Material3 UI
+- Elevated Design
+- Cool UI
 
 ## Contributing
 
 If you would like to contribute to CalcNow, please read our contributing guidelines.
+You can Fork it or Clone it for future contributions.
 
 ## License
 
