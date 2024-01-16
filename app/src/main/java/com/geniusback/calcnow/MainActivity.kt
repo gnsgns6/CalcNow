@@ -2,6 +2,7 @@ package com.geniusback.calcnow
 
 import android.icu.text.ListFormatter.Width
 import android.os.Bundle
+import android.window.SplashScreenView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -56,7 +57,7 @@ class MainActivity : ComponentActivity() {
                         .fillMaxWidth()
                         .horizontalScroll(state = rememberScrollState())
                 ) {
-                    ScreenView("7437878")
+                    ScreenView("")
                     KeyView()
                     val a = Calc("LEGACY")
 //                    CalcView(a.calcName("GNEISS"))

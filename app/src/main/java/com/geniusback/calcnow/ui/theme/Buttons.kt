@@ -1,5 +1,5 @@
 package com.geniusback.calcnow.ui.theme
-
+import com.geniusback.calcnow.ui.theme.*
 import com.geniusback.calcnow.*
 import android.icu.text.ListFormatter.Width
 import android.os.Bundle
@@ -45,6 +45,24 @@ import androidx.compose.ui.unit.sp
 import com.geniusback.calcnow.ui.theme.*
 import com.geniusback.calcnow.ui.theme.CalcNowTheme
 
+@Composable
+fun NumberButton(number: String)
+{
+    Button(
+        onClick = { /*TODO*/ },
+        contentPadding = PaddingValues(0.dp),
+        modifier = Modifier
+            .padding(10.dp)
+            .size(70.dp)
+            .clip(CircleShape)
+    )
+    {
+        Text(
+            text = number, fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
+            softWrap = false
+        )
+    }
+}
 
 @Composable
 fun KeyView() {
@@ -60,312 +78,11 @@ fun KeyView() {
         Row(
             horizontalArrangement = Arrangement.Center,
             modifier = Modifier.fillMaxWidth()
-        ) {
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "AC", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "<<", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "%", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "/", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-        }
-        //--------  SECOND ROW  -----------
-        Row(
-            horizontalArrangement = Arrangement.Center,
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "7", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "8", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "9", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "x", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-        }
-        //--------  THIRD ROW  -----------
-        Row(
-            horizontalArrangement = Arrangement.Center,
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "4", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "5", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "6", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "-", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-        }
-        //--------  FOURTH ROW  -----------
-        Row(
-            horizontalArrangement = Arrangement.Center,
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "1", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "2", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "3", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "-", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-        }
-        //--------  FIFTH ROW  -----------
-        Row(
-            horizontalArrangement = Arrangement.Center,
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "$", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "0", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = ".", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-            Button(
-                onClick = { /*TODO*/ },
-                contentPadding = PaddingValues(0.dp),
-                modifier = Modifier
-                    .padding(10.dp)
-                    .size(70.dp)
-                    .clip(CircleShape)
-            )
-            {
-                Text(
-                    text = "=", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold,
-                    softWrap = false
-                )
-            }
-        }
+        ){
+            NumberButton("AC")
+    }
+
+
     }
 
 
