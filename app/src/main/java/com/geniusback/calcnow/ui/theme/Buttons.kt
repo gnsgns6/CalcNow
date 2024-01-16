@@ -49,7 +49,7 @@ import com.geniusback.calcnow.ui.theme.CalcNowTheme
 fun NumberButton(number: String)
 {
     Button(
-        onClick = { /*TODO*/ },
+        onClick = { NumberClick(number)},
         contentPadding = PaddingValues(0.dp),
         modifier = Modifier
             .padding(10.dp)
@@ -67,6 +67,7 @@ fun NumberButton(number: String)
 @Composable
 fun KeyView() {
     Card(
+        onClick = { NumberClick(number)},
         modifier = Modifier
             .padding(16.dp, top = 300.dp)
             .fillMaxSize(),
@@ -74,14 +75,50 @@ fun KeyView() {
         border = BorderStroke(1.dp, Color.Green)
     )
     {
-        //--------  FIRST ROW  -----------
         Row(
-            horizontalArrangement = Arrangement.Center,
+
+            horizontalArrangement = Arrangement.SpaceEvenly,
             modifier = Modifier.fillMaxWidth()
         ){
             NumberButton("AC")
-    }
-
+            NumberButton("<<")
+            NumberButton("%")
+            NumberButton("/")
+        };
+        Row(
+            horizontalArrangement = Arrangement.SpaceEvenly,
+            modifier = Modifier.fillMaxWidth()
+        ){
+            NumberButton("7")
+            NumberButton("8")
+            NumberButton("9")
+            NumberButton("X")
+        }; Row(
+            horizontalArrangement = Arrangement.SpaceEvenly,
+            modifier = Modifier.fillMaxWidth()
+        ){
+            NumberButton("4")
+            NumberButton("5")
+            NumberButton("6")
+            NumberButton("-")
+        }; Row(
+            horizontalArrangement = Arrangement.SpaceEvenly,
+            modifier = Modifier.fillMaxWidth()
+        ){
+            NumberButton("1")
+            NumberButton("2")
+            NumberButton("3")
+            NumberButton("+")
+        };
+        Row(
+            horizontalArrangement = Arrangement.SpaceEvenly,
+            modifier = Modifier.fillMaxWidth()
+        ){
+            NumberButton("@")
+            NumberButton("0")
+            NumberButton(".")
+            NumberButton("=")
+        };
 
     }
 

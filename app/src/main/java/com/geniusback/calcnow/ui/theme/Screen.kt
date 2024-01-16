@@ -26,8 +26,16 @@ import androidx.compose.ui.unit.TextUnitType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.intellij.lang.annotations.JdkConstants.HorizontalAlignment
+
     @Composable
-    fun ScreenView(display: String) {
+    fun NumberClick(number: String){
+        var displayNumber by remember { mutableStateOf("") }
+        displayNumber = number
+    }
+
+
+    @Composable
+    fun ScreenView(number: String) {
         Card(
             modifier = Modifier
                 .padding(12.dp)
@@ -43,7 +51,7 @@ import org.intellij.lang.annotations.JdkConstants.HorizontalAlignment
 
             {
                 Text(
-                    text = display,
+                    text = number,
                     fontWeight = FontWeight.ExtraBold,
                     fontFamily = FontFamily.Cursive,
                     fontSize = 55.sp
